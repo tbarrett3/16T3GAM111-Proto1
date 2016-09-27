@@ -16,6 +16,12 @@ public class PlayerController : MonoBehaviour {
 
     public float speed = 30f;
 
+    public GameObject muzzle;
+
+    public GameObject projectile;
+
+    public float projectileSpeed = 30;
+
 	// Use this for initialization
 	void Start () {
         //Assign the rigidbody
