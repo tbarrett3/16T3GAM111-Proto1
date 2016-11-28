@@ -6,12 +6,12 @@ public class ButtonController : MonoBehaviour {
 
 public void startButton()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     public void mainmenuButton()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 
     public void quitButton()
